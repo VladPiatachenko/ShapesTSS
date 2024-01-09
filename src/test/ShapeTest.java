@@ -7,8 +7,8 @@ public class ShapeTest {
     @Test
     void ShapeByNumberTest(){
         ShapeFactory shape1 = new ShapeFactory(18);
-        Assertions.assertEquals(shape1.paint, Color.RED);
+        Assertions.assertEquals(Color.BLUE,shape1.paint);
         ShapeFactory shape2 = new ShapeFactory(77);
-        Assertions.assertEquals(shape2.paint.getClass(),GradientPaint.class);
+        Assertions.assertEquals(GradientPaint.class, shape2.paint.getClass());
     }
 }
