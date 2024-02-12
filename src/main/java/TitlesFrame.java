@@ -1,7 +1,9 @@
 import java.awt.Component;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
-
+/**
+ * TODO:javadoc to add
+ * */
 public class TitlesFrame extends JFrame {
    public TitlesFrame() {
       this.initUI();
