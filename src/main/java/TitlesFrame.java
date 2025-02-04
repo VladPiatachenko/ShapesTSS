@@ -8,7 +8,7 @@ import javax.swing.SwingUtilities;
  *
  * <p>The frame displays a panel of type {@code TitlesPanel} and has predefined dimensions.</p>
  *
- * @author (Your Name)
+ * @author Erlkonig
  * @version 1.0
  */
 public class TitlesFrame extends JFrame {
